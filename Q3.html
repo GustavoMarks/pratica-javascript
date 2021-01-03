@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questão 3</title>
+</head>
+
+<body>
+  <input id="nome" placeholder="nome..." />
+  <input id="sobrenome" placeholder="sobrenome..." />
+  <button id="incluir"> incluir </button>
+  <br />
+  <br />
+  <table id="tabela" width="100%" border="2px">
+    <thead>
+      <tr id="cabecalhoTabela">
+        <td> Nome </th>
+        <td> Sobrenome </th>
+      </tr>
+    </thead>
+    <tbody id="corpoTabela">
+      <tr id="preencher">
+        <td colspan="2"> Nenhuma pessoa cadastrada... </td>
+      </tr>
+    </tbody>
+  </table>
+  <p id="contagemPessoas" style="display: none;"> pessoa(s) cadastrada(s) </p>
+  <button id="excluirBtn" style="display: none;" disabled> Excluir </button>
+</body>
+<script type="text/javascript" src="js/Q3.js"></script>
+
+</html>
